@@ -9,6 +9,10 @@ on:
 
 env:
   IMAGE_NAME: ashenellawala/gitops-demo-app
+permissions:
+  contents: write
+
+
 
 jobs:
   build-and-deploy:
