@@ -22,4 +22,4 @@ spec:
         - name: APP_VERSION
           value: "1.0.0"
         - name: BUILD_NUMBER
-          value: "1" # BUILD
+          value: "1"  # BUILD
