@@ -15,11 +15,11 @@ spec:
     spec:
       containers:
       - name: gitops-app
-        image: ashenellawala/gitops-demo-app:12
+        image: ashenellawala/gitops-demo-app:13
         ports:
         - containerPort: 5000
         env:
         - name: APP_VERSION
           value: "1.0.0"
         - name: BUILD_NUMBER
-          value: "12"  # BUILD
+          value: "13"  # BUILD
